@@ -1,8 +1,7 @@
 # take input + lower case 
 file = input("file name: ").lower().strip()
 #print the o/p as filetype/fileextention
-
-# use match case
+#use conditions
 if file.endswith(".gif"):
         print("image/gif")
 elif file.endswith(".jpeg") or file.endswith(".jpg"):
