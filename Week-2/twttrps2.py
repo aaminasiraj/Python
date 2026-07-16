@@ -6,6 +6,6 @@ text = input("Input: ").lower()
 #o/p
 for i in text:
     if i not in ["a", "e", "i", "o", "u"]:
-        print(i, end=" ")
+        print(i, end="")
 
 print()
