@@ -15,15 +15,11 @@ def num(s):
     return 2 <= len(s) <=6
 
 
-
 def start(s):
     return s[0].isalpha() and s[1].isalpha()
         
 def sign(s):
-    if s.isalnum():
-        return True
-    else:
-        return False
+    return s.isalnum()
     
 
 def mid(s):
@@ -33,17 +29,12 @@ def mid(s):
         if i.isdigit():
             if not started and i == "0":
                 return False
-
-            started = True
+            else:
+                started = True
 
         elif started:
             return False
-
     return True
-
-
-
-    
 
 
 main()
